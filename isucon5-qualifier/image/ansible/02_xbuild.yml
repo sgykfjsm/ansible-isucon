@@ -42,9 +42,9 @@
     #     creates: /home/isucon/.local/scala-2.11.7/bin/scala
     # - file: src=/home/isucon/.local/scala-2.11.7 dest=/home/isucon/.local/scala state=link
 
-- hosts: imageservers
-  sudo: yes
-  gather_facts: no
-  tasks:
-    # java
-    - apt: name=openjdk-8-jdk state=present
+# - hosts: imageservers
+#   sudo: yes
+#   gather_facts: no
+#   tasks:
+#     # java
+#     - apt: name=openjdk-8-jdk state=present
